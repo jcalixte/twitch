@@ -5,19 +5,25 @@
 @keyframes shake {
   10%,
   90% {
-    transform: translate3d(-10px, 0, 0);
+    transform: rotate(-1deg) translate3d(-5px, 0, 0);
   }
-  20%,
+
+  20% {
+    transform: rotate(4deg) translate3d(5px, 0, 0);
+  }
+
   80% {
-    transform: translate3d(10px, 0, 0);
+    transform: rotate(2deg) translate3d(5px, 0, 0);
   }
+
   30%,
   50%,
   70% {
-    transform: translate3d(-15px, 0, 0);
+    transform: rotate(-1deg) translate3d(-7px, 0, 0);
   }
+
   40%,
   60% {
-    transform: translate3d(20px, 0, 0);
+    transform: rotate(2deg) translate3d(7px, 0, 0);
   }
 }
