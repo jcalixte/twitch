@@ -1,8 +1,11 @@
 :root {
-  --primary-color: #FDA7DF;
+  --primary-color: #fda7df;
+  --primary-background: #09913c;
+  --secondary-background: #bae8ff;
 }
 
 html,
 body {
   margin: 0;
+  overflow: hidden;
 }
